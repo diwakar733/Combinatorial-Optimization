@@ -1,0 +1,86 @@
+[
+  {
+    "name": "tsp_greedy_nn_2opt",
+    "objective": 26.40806455034807,
+    "solution": [
+      0,
+      5,
+      2,
+      4,
+      6,
+      3,
+      7,
+      1
+    ],
+    "elapsed_sec": 0.00015799999528098851,
+    "meta": {
+      "strategy": "nearest_neighbor+2opt"
+    }
+  },
+  {
+    "name": "tsp_divide_conquer",
+    "objective": 26.40806455034807,
+    "solution": [
+      0,
+      5,
+      2,
+      4,
+      6,
+      3,
+      7,
+      1
+    ],
+    "elapsed_sec": 0.00015809999604243785,
+    "meta": {
+      "strategy": "divide_and_conquer+stitch+2opt"
+    }
+  },
+  {
+    "name": "tsp_dp_held_karp",
+    "objective": Infinity,
+    "solution": [
+      0
+    ],
+    "elapsed_sec": 0.00018230000569019467,
+    "meta": {
+      "strategy": "held-karp",
+      "n": 8
+    }
+  },
+  {
+    "name": "tsp_backtracking",
+    "objective": 26.408064550348065,
+    "solution": [
+      0,
+      5,
+      2,
+      4,
+      6,
+      3,
+      7,
+      1
+    ],
+    "elapsed_sec": 0.011220700005651452,
+    "meta": {
+      "strategy": "backtracking+pruning"
+    }
+  },
+  {
+    "name": "tsp_branch_and_bound",
+    "objective": 26.408064550348065,
+    "solution": [
+      0,
+      5,
+      2,
+      4,
+      6,
+      3,
+      7,
+      1
+    ],
+    "elapsed_sec": 0.031433099997229874,
+    "meta": {
+      "strategy": "branch_and_bound"
+    }
+  }
+]
